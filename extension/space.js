@@ -1,7 +1,4 @@
-
-
-function timerMethod() {
-
+function doTheme() {
 
 var wallpaper = $('img[src*="wallpaper"]'); $(wallpaper).attr('src','http://i53.tinypic.com/a5akbd.jpg');
 var floor = $('img[src*="floor"]'); $(floor).attr('src','http://i56.tinypic.com/15re39x.jpg');
@@ -17,9 +14,6 @@ $('#songboard_artist').css('text-shadow', 'none');
 $('#songboard_title').css('text-shadow', 'none');
 $('#left_speaker').css('background', 'url("http://img838.imageshack.us/img838/5222/blankad.png")');
 $('#right_speaker').css('background', 'url("http://img838.imageshack.us/img838/5222/blankad.png")');
-
-
-
- 
 }
-var timerId = setInterval(timerMethod, 10000); 
+
+var timerId = setInterval(doTheme, 10000); 
